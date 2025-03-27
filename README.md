@@ -1,4 +1,4 @@
-# Arduino Watering System
+# IoT University Project [ID: 06]-Arduino Watering System
 
 ## Overview
 
