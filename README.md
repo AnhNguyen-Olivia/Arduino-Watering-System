@@ -78,14 +78,14 @@ mosquitto_sub -h test.mosquitto.org -t "arduino/soil_moisture"
 **Turn the relay ON:**
 
 ```sh
-mosquitto_pub -h test.mosquitto.org -t "arduino/relay_control" -m '{"relay_on": true}'
+mosquitto_pub -h test.mosquitto.org -t "arduino/relay_control" -m '{\"relay_on\": true}'
 ```
 
 **Turn the relay OFF:**
 
 ```sh
 
-mosquitto_pub -h test.mosquitto.org -t "arduino/relay_control" -m '{"relay_on": false}'
+mosquitto_pub -h test.mosquitto.org -t "arduino/relay_control" -m '{\"relay_on\": false}'
 ```
 
 ## Python MQTT Handler (Optional)
